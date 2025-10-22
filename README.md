@@ -14,11 +14,11 @@ A **Bash-based automation tool** that securely pulls your codebase from Git repo
 
 Before running the script, ensure the following:
 
-1. Your **local machine** should have bash, git, ssh and rsync installed:
+- Your **local machine** should have bash, git, ssh and rsync installed:
 
-2. Your **remote server** runs **Ubuntu 18.04+ / Debian 10+** 
+- Your **remote server** runs **Ubuntu 18.04+ / Debian 10+** 
 
-3. You have a **Personal Access Token (PAT)** with permissions to clone the target repo
+- You have a **Personal Access Token (PAT)** with permissions to clone the target repo
             a **Dockerfile** or **docker-compose.yml** in your repository
             an **SSH key** that allows passwordless login to the remote server 
 
